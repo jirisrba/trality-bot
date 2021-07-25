@@ -1,18 +1,19 @@
 #
-# trality bot: supertrend
+# trality bot: SuperTrend Indicator
 #
-#
-# API: https://docs.trality.com/trality-code-editor/api-documentation
+# Trality API: https://docs.trality.com/trality-code-editor/api-documentation
+# Super Trend python library:
+#   https://medium.datadriveninvestor.com/crypto-quant-profits-with-supertrend-indicator-f518129e1f5d
 #
 from enum import Enum
 
 INTERVAL = "1h"
 
-# supertrend calc
+# supertrend calculation
 PERIOD = 10
 ATR_MULTIPLIER = 3
 
-# max buy limit 50
+# max buy limit USDT
 BUY_MAX_LIMIT = 50
 STOP_LOSS = 0.1
 TAKE_PROFIT = 0.5
